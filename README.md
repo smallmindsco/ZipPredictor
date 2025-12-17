@@ -5,7 +5,7 @@ The prompt: "Create an ML model architecture that will "learn" from a .safetenso
 
 Link to Claude convo (all the final files are included in this repo): https://claude.ai/share/8ed84761-5ce4-400b-b55a-dbb4ad3650ed
 
-I will not pretend to anything other that a curious explorer and this is new terrain that probably harbors wild beast that will destroy anything that attempts to actually do this. And it is probably also a bad idea, but for the intrepid and equally-crazy I present:
+I will not pretend to anything other that a curious explorer and this is new terrain that probably harbors wild beasts that will destroy anything that attempts to actually do this. And it is probably also a bad idea, but for the intrepid and equally-crazy I present:
 
 
 # ZipPredictor: Learning to Predict Zip File Outputs from Model Weights
