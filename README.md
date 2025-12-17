@@ -1,3 +1,13 @@
+## Authors Note
+Why write a paper when you can just get the LLM to write the code and then test it later? First off, don't do what I'm doing here. Second off, this is all untested but given the following prompt, Claude produced this code. This is actually the second version, the first version died in flames when Claude tried, during our web UI session, to install pytorch on its local runtime and actually train a model to test the code. A+ for effort but that died. See the "Screenshots" folder which memorialize that epic fail that was almost awesome, but is also awesome in its own right in terms of random model behaviors gone awry.
+
+The prompt: "Create an ML model architecture that will "learn" from a .safetensors file to predict a zip file output for a given prompt. So, for instance, if I have some model M, I can train our model, K, to accept text input and output a zip file that, when unzipped, would match the output of the original model M."
+
+Link to Claude convo (all the final files are included in this repo): https://claude.ai/share/8ed84761-5ce4-400b-b55a-dbb4ad3650ed
+
+I will not pretend to anything other that a curious explorer and this is new terrain that probably harbors wild beast that will destroy anything that attempts to actually do this. And it is probably also a bad idea, but for the intrepid and equally-crazy I present:
+
+
 # ZipPredictor: Learning to Predict Zip File Outputs from Model Weights
 
 ## Overview
